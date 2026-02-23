@@ -43,7 +43,7 @@ def get_gemini_sentiment(text):
     if not HAS_GEMINI:
         return None
     try:
-        model = genai.GenerativeModel('gemini-1.5-flash')
+        model = genai.GenerativeModel('gemini-2.5-flash')
         prompt = f"""
         Analyze the sentiment of the following text and return ONLY a JSON response in this format:
         {{"positive": score, "negative": score}}
