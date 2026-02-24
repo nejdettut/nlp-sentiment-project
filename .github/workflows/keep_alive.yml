@@ -1,0 +1,13 @@
+name: Keep Streamlit App Alive
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # Her 30 dakikada bir çalışır
+  workflow_dispatch:         # Manuel tetikleme için
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Curl request to Streamlit app
+        run: curl -s https://nlp-sentiment-project-bdbg5m3nhlutdenzonboj6.streamlit.app/
