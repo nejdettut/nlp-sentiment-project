@@ -3,7 +3,7 @@
 Bu proje, metinlerin duygu durumunu analiz eden bir web uygulamasıdır. Google Gemini AI kullanılarak geliştirilmiştir.
 
 ## Özellikler
-- **Gemini 1.5 Flash Entegrasyonu:** Gerçek zamanlı ve yüksek doğruluklu analiz.
+- **Gemini 2.5 Flash Entegrasyonu:** Gerçek zamanlı ve yüksek doğruluklu analiz.
 - **Standalone Streamlit App:** Herhangi bir dış backend gerektirmeden çalışabilir.
 - **Hızlı ve Kullanıcı Dostu Arayüz:** Streamlit ile modern tasarım.
 
